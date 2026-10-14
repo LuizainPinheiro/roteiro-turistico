@@ -1,17 +1,16 @@
-import Header from "./Components/Header"
-import Router  from "./Router"
-import Footer from "./Components/Footer"
+import React from 'react';
+import Header from './Components/Header';
+import Router from './Router';
+import Footer from './Components/Footer';
 
-
-function App() {
+export default function App() {
   return (
-  <>
-  <Header />
-  <Router /> 
-  <Footer />
- </>
-
-  )
+    <div>
+      <Header />
+      <main>
+        <Router />
+      </main>
+      <Footer />
+    </div>
+  );
 }
-
-export default App

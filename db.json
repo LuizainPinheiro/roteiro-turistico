@@ -1,0 +1,44 @@
+{
+  "favoritos": [
+    {
+      "destino": "São Sebastião",
+      "feedback": "Sensacional...\nÓtimos restaurantes.",
+      "imagem": "https://www.cidadeecultura.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2016/08/sao-sebastiao-meio-ambiente-praia-Praia-Cigarras-4-bx-1024x656.jpg.webp",
+      "id": "HikeLPQdWiI"
+    },
+    {
+      "destino": "Angra dos Reis",
+      "feedback": "Top, recomendo muito",
+      "imagem": "https://www.mochileiros.com/blog/wp-content/uploads/2017/10/boradescobrir_praiadolaboratorio_angra.jpeg",
+      "id": "OatJ0KI5Ktw"
+    }
+  ],
+  "sobre": [
+    {
+      "id": "1",
+      "titulo": "O que é o Maply?",
+      "descricao": "O Maply é uma plataforma intuitiva desenvolvida para ajudar viajantes a planejar, organizar e personalizar os seus roteiros turísticos de forma simples e rápida."
+    },
+    {
+      "id": "2",
+      "titulo": "Sua viagem sem complicações",
+      "descricao": "Esqueça as planilhas confusas e anotações perdidas. Com o Maply você reúne destinos, pontos turísticos e itinerários em um só lugar."
+    },
+    {
+      "id": "3",
+      "titulo": "Guarde seus Favoritos",
+      "descricao": "Encontrou aquele destino dos sonhos? Salve na sua lista de favoritos para organizar os seus próximos passeios e consultar sempre que precisar."
+    },
+    {
+      "id": "4",
+      "titulo": "Inspiração e Descoberta",
+      "descricao": "Apresentamos os principais destinos do Brasil e do mundo com fotos inspiradoras e informações práticas para ajudar na sua escolha."
+    },
+    {
+      "id": "5",
+      "titulo": "Feito para todo tipo de viajante",
+      "descricao": "Seja para um mochilão no fim de semana ou uma viagem de férias em família, o Maply adapta-se ao seu ritmo e ao seu estilo de viagem."
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

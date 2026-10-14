@@ -1,0 +1,41 @@
+.sobre-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sobre-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.sobre-header h2 {
+  font-size: 2rem;
+  color: #d64f00;
+  margin-bottom: 0.5rem;
+}
+
+.sobre-header p {
+  font-size: 1.1rem;
+  color: #4a5568;
+}
+
+.sobre-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.sobre-card h3 {
+  color: #2b6cb0;
+  font-size: 1.25rem;
+}
+
+.sobre-card p {
+  color: #4a5568;
+  line-height: 1.6;
+}

@@ -4,81 +4,67 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  color: #2d3748;
+  margin-bottom: 100px;
 }
 
-/* BANNER HERO (Sua imagem PNG de fundo) */
+/* BANNER */
 .hero-banner {
   width: 100%;
-  height: 480px;
+  height: 650px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
 }
 
-/* SOBREPOSIÇÃO TRANSLÚCIDA (Melhora a leitura do texto sobre a foto) */
-.hero-overlay {
-  background: rgba(0, 0, 0, 0.55);
-  backdrop-filter: blur(4px);
-  padding: 40px 30px;
-  border-radius: 16px;
-  text-align: center;
-  color: #ffffff;
-  max-width: 750px;
-  margin: 0 20px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-}
-
-.hero-overlay h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 16px;
-  line-height: 1.2;
-}
-
-.hero-overlay p {
-  font-size: 1.2rem;
-  font-weight: 400;
-  line-height: 1.5;
-  opacity: 0.95;
-  margin: 0;
-}
-
-/* SEÇÃO DE DESTAQUES / RECURSOS */
-.features-section {
-  max-width: 1100px;
+/* SEÇÃO DE DESTINOS */
+.destinos-section {
+  max-width: 1000px;
   width: 100%;
-  margin: 60px auto;
-  padding: 0 20px;
+  margin-top: 100px;
   text-align: center;
   box-sizing: border-box;
 }
 
-.features-section h2 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #1a202c;
-  margin-bottom: 40px;
+/* SEÇÃO DE DESTAQUES */
+.features-section {
+  max-width: 1100px;
+  min-height: 50vh;
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titulo-section {
+  font-size: 2.1rem;
+  font-weight: 400;
+  color: #f26c4f;
+  margin-bottom: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 
 /* GRID DOS CARDS */
+.cards-destino {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
+
 .cards-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
 }
 
 /* CARDS INDIVIDUAIS */
 .card {
-  background-color: #ffffff;
-  border: 1px solid #e2e8f0;
+  background-color: 'transparent';
+  border: 1px solid #cdd4df;
   border-radius: 12px;
-  padding: 32px 24px;
+  padding: 40px 30px;
   text-align: left;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -89,43 +75,17 @@
 }
 
 .card h3 {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: #2b6cb0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #9cc4e4;
   margin-top: 0;
   margin-bottom: 12px;
 }
 
 .card p {
-  font-size: 0.98rem;
-  color: #4a5568;
+  font-size: 1.1rem;
+  color: #cecece;
   line-height: 1.6;
   margin: 0;
 }
 
-/* RESPONSIVIDADE (CELULARES E TABLETS) */
-@media (max-width: 768px) {
-  .hero-banner {
-    height: 380px;
-  }
-
-  .hero-overlay {
-    padding: 24px 18px;
-  }
-
-  .hero-overlay h1 {
-    font-size: 1.8rem;
-  }
-
-  .hero-overlay p {
-    font-size: 1rem;
-  }
-
-  .features-section {
-    margin: 40px auto;
-  }
-
-  .features-section h2 {
-    font-size: 1.6rem;
-  }
-}

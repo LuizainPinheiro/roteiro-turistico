@@ -1,0 +1,21 @@
+.header-menu {
+  grid-column: 3;
+  justify-self: end;
+}
+
+.header-menu ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.header-menu a {
+  font-size: 1.3rem;
+  color: #2d516b;
+  text-decoration: none;
+}
+
+.header-menu a:hover {
+  text-decoration: underline;
+}

@@ -1,20 +1,15 @@
-import React from 'react'
-import './Nav.css'
-import { Link } from 'react-router-dom'
 
-export default function index() {
+import { Link } from 'react-router-dom';
+import './Nav.css';
+
+export default function Nav() {
   return (
-
-    <nav>
-        <ul className="menu">
-          <li>
-            <Link to='/'>
-                Home
-            </Link>
-          </li>
-
-        </ul>
-      </nav> 
-
-  )
+    <nav className="header-menu">
+      <ul>
+        <li><Link to="/">Roteiros</Link></li>
+        <li><Link to="/favoritos">Favoritos</Link></li>
+        <li><Link to="/sobre">Sobre nós</Link></li>
+      </ul>
+    </nav>
+  );
 }

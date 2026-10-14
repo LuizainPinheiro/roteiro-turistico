@@ -1,0 +1,119 @@
+.favoritos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* Formulário */
+.form-section {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2, .lista-section h2 {
+  margin-bottom: 1.5rem;
+  color: #d64f00;
+  font-size: 2rem;
+}
+
+.favoritos-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #156585;
+  font-size: 1.2rem;
+}
+
+.form-group input, 
+.form-group textarea {
+  padding: 1rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.btn-salvar {
+  background-color: #d64f00;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+  max-width: 200px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-salvar:hover {
+  background-color: #156585;
+}
+
+/* Lista e Cards */
+.sem-favoritos {
+  color: #718096;
+  font-style: italic;
+}
+
+.favorito-card {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.card-body h3 {
+  color: #2b6cb0;
+
+}
+
+.card-body p {
+  color: #4a5568;
+  line-height: 1.5;
+}
+
+.btn-delete {
+  background-color: #d64f00;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0 auto;
+  transition: background-color 0.2s;
+}
+
+.btn-delete:hover {
+  background-color: #d1723a;
+}
